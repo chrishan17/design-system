@@ -1,0 +1,92 @@
+@import 'normalize';
+@import 'base';
+@import 'variable';
+@import 'colors';
+.first-color {
+  background: $first-color;
+}
+
+.second-color {
+  background: $second-color;
+}
+
+.primary {
+  background: $primary-color;
+}
+
+.complementary {
+  background: $complementary-color;
+}
+
+.complementary-neutral {
+  background: $complementary-neutral;
+}
+
+.complementary-neutral-light {
+  background: $complementary-neutral-light;
+}
+
+.complementary-neutral-dark {
+  background: $complementary-neutral-dark;
+}
+
+.primary-neutral {
+  background: $primary-neutral;
+}
+
+.primary-neutral-light {
+  background: $primary-neutral-light;
+}
+
+.primary-neutral-dark {
+  background: $primary-neutral-dark;
+}
+
+.primary-light {
+  background: $primary-light;
+}
+
+.primary-dark {
+  background: $primary-dark;
+}
+
+.complementary-light {
+  background: $complementary-light;
+}
+
+.white {
+  background: $white;
+}
+
+.neutral-gray {
+  background: $neutral-gray;
+}
+
+.primary-gray {
+  background: $primary-gray;
+}
+
+.complementary-gray {
+  background: $complementary-gray;
+}
+
+.black {
+  background: $black;
+}
+
+.analogous {
+  background: $analogous-color;
+}
+
+.complementary-analogous {
+  background: $complementary-analogous;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  & > * {
+    width: 100px;
+    height: 100px;
+  }
+}
